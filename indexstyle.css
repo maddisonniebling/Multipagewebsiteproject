@@ -1,0 +1,48 @@
+.content{
+	background-color: powderblue;
+	grid-area: content;
+	padding: 10px;
+	overflow: hidden;
+	text-align: center
+}
+
+.class-one{
+	background-color: powderblue;
+	grid-area: class-one;
+	padding: 10px;
+	overflow: hidden;
+}
+
+.class-four{
+	background-color: powderblue;
+	grid-area: class-four;
+}
+
+.side-bar{
+	grid-area: side-bar;
+	background-color: powderblue;
+	padding: 10px;
+	overflow: hidden;
+}
+
+.grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-auto-rows: minmax(250px,auto);
+	grid-template-areas: "class-one class-one"
+						 					"side-bar class-four";
+	margin: auto;
+	grid-row-gap: 10px;
+	grid-column-gap: 5px;
+	background-color: powderblue;
+}
+
+.header{
+	grid-area: header;
+	background-color: powderblue;
+	padding: 10px;
+}
+
+div{
+	background-color: powderblue;
+}
