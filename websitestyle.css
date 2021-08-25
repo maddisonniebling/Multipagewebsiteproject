@@ -1,5 +1,18 @@
+* {background-color: powderblue}
+
+.resizeimage{
+	width: 500px;
+	height: 250px;
+}
+
+.center{
+	display: block;
+  	margin-left: auto;
+ 	margin-right: auto;
+  	width: 50%;
+}
+
 .content{
-	background-color: powderblue;
 	grid-area: content;
 	padding: 10px;
 	overflow: hidden;
@@ -7,20 +20,17 @@
 }
 
 .class-one{
-	background-color: powderblue;
 	grid-area: class-one;
 	padding: 10px;
 	overflow: hidden;
 }
 
 .class-four{
-	background-color: powderblue;
 	grid-area: class-four;
 }
 
 .side-bar{
 	grid-area: side-bar;
-	background-color: powderblue;
 	padding: 10px;
 	overflow: hidden;
 }
@@ -34,13 +44,16 @@
 	margin: auto;
 	grid-row-gap: 10px;
 	grid-column-gap: 5px;
-	background-color: powderblue;
 }
 
 .header{
 	grid-area: header;
-	background-color: powderblue;
 	padding: 10px;
+}
+
+.image-style{
+	max-height: 100%;
+	max-width: 100%;
 }
 
 div{

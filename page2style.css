@@ -1,3 +1,10 @@
+* {background-color: powderblue}
+
+.resizeimage{
+	width: 500px;
+	height: 250px;
+}
+
 .grid{
 	display: grid;
 	grid-template-columns: 1fr 1fr;
@@ -8,29 +15,21 @@
 	margin: auto;
 	grid-row-gap: 10px;
 	grid-column-gap: 5px;
-	background-color: powderblue;
-}
-
-nav{
-	background-color: powderblue;
 }
 
 .header{
 	grid-area: header;
-	background-color: none;
 	padding: 10px;
 	text-align: center;
 }
 .side-bar{
 	grid-area: side-bar;
-	background-color: none;
 	padding: 10px;
 	overflow: hidden;
 }
 
 .content{
 	grid-area: content;
-	background-color: none;
 	padding: 10px;
 	overflow: hidden;
 }
